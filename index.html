@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Bhargav Joshi | Portfolio</title>
+	<meta name="description" content="Bhargav Joshi, INSEAD MBA Candidate, Class of December 2026. Background in AR/VR product development, now moving into finance and consulting." />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<noscript><style>.reveal { opacity: 1 !important; transform: none !important; } .hero-canvas { display: none; }</style></noscript>
+</head>
+<body class="is-loading">
+
+	<!-- Scroll progress -->
+	<div class="scroll-progress" id="scrollProgress"></div>
+
+	<!-- Nav -->
+	<header class="site-header" id="siteHeader">
+		<div class="header-inner">
+			<a href="#hero" class="brand">BJ<span class="brand-dot">.</span></a>
+
+			<nav class="main-nav" id="mainNav">
+				<a href="#about" class="nav-link">About</a>
+				<a href="#experience" class="nav-link">Experience</a>
+				<a href="#projects" class="nav-link">Projects</a>
+				<a href="#skills" class="nav-link">Skills</a>
+				<a href="#education" class="nav-link">Education</a>
+				<a href="#contact" class="nav-link">Contact</a>
+			</nav>
+
+			<div class="header-actions">
+				<a href="documents/Bhargav_Joshi_CV_29.08.26.pdf" download class="btn btn-ghost btn-small">
+					<i class="fas fa-download"></i><span>Resume</span>
+				</a>
+				<button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+					<span></span><span></span><span></span>
+				</button>
+			</div>
+		</div>
+	</header>
+
+	<!-- Hero -->
+	<section class="hero" id="hero">
+		<canvas id="heroCanvas" class="hero-canvas"></canvas>
+		<div class="hero-glow"></div>
+
+		<div class="hero-inner">
+			<p class="hero-eyebrow reveal">Fontainebleau, France · Open to full-time roles</p>
+
+			<h1 class="hero-title reveal">
+				Hi, I'm <span class="text-gradient">Bhargav Joshi</span>
+			</h1>
+
+			<div class="hero-role reveal">
+				<span class="role-prefix">Currently</span>
+				<span class="role-cycle" id="roleCycle"></span>
+			</div>
+
+			<p class="hero-summary reveal">
+				I spent five years building AR/VR products in Unity, from industrial training tools
+				to an e-learning platform used by 50,000+ students. Now I'm at INSEAD, adding
+				strategy and finance to that background.
+			</p>
+
+			<div class="hero-cta reveal">
+				<a href="#projects" class="btn btn-primary">
+					<span>View my work</span><i class="fas fa-arrow-right"></i>
+				</a>
+				<a href="#contact" class="btn btn-outline">
+					<span>Get in touch</span>
+				</a>
+			</div>
+
+			<div class="hero-stats reveal">
+				<div class="stat">
+					<span class="stat-number" data-prefix="€" data-count="8.3" data-suffix="T">0</span>
+					<span class="stat-label">Market GTM strategy led</span>
+				</div>
+				<div class="stat">
+					<span class="stat-number" data-count="50" data-suffix="K+">0</span>
+					<span class="stat-label">Students reached via product</span>
+				</div>
+				<div class="stat">
+					<span class="stat-number" data-count="75" data-suffix="%">0</span>
+					<span class="stat-label">Cost reduction delivered</span>
+				</div>
+				<div class="stat">
+					<span class="stat-number" data-count="5" data-suffix="+">0</span>
+					<span class="stat-label">Languages spoken</span>
+				</div>
+			</div>
+		</div>
+
+		<a href="#about" class="scroll-cue" aria-label="Scroll down">
+			<span></span>
+		</a>
+	</section>
+
+	<!-- About -->
+	<section class="section" id="about">
+		<div class="section-inner">
+			<p class="section-kicker reveal">About</p>
+			<h2 class="section-title reveal">A bit about me</h2>
+
+			<div class="about-grid">
+				<div class="about-photo reveal">
+					<div class="photo-frame">
+						<img src="images/headshot-2026.jpg" alt="Bhargav Joshi" onerror="this.closest('.about-photo').classList.add('photo-fallback')" />
+					</div>
+					<div class="photo-badge">
+						<i class="fas fa-graduation-cap"></i>
+						<span>INSEAD MBA<br>Class of Dec 2026</span>
+					</div>
+				</div>
+
+				<div class="about-copy reveal">
+					<p>
+						I have a background in Robotics and Automation and spent the last five years
+						building AR and VR applications in Unity, across roles at Siemens, LUCE Stiftung
+						and Reiser Simulation and Training. Somewhere along the way I moved from writing
+						the code to owning the product: leading an e-learning platform used by 50,000+
+						students, then a VR training tool for aviation maintenance that cut training
+						costs by an estimated 75%.
+					</p>
+					<p>
+						That shift toward the business side of the work is what brought me to INSEAD,
+						where I'm studying corporate strategy, financial analysis and negotiations.
+						I'm also a fairly active investor on the side, applying bottom-up fundamental
+						analysis to tech companies (up 87% on my personal portfolio since 2023).
+					</p>
+					<p>
+						I'm looking for a role in <strong>finance, consulting or strategy</strong> where I can
+						put that mix of technical background and financial thinking to use.
+					</p>
+
+					<div class="about-pillars">
+						<div class="pillar">
+							<i class="fas fa-chart-line"></i>
+							<div>
+								<h4>Strategic &amp; Financial Analysis</h4>
+								<p>Corporate strategy, financial modelling, GTM &amp; market sizing</p>
+							</div>
+						</div>
+						<div class="pillar">
+							<i class="fas fa-users"></i>
+							<div>
+								<h4>Cross-functional Leadership</h4>
+								<p>Led teams of up to 25 across 10+ nationalities, agile delivery</p>
+							</div>
+						</div>
+						<div class="pillar">
+							<i class="fas fa-robot"></i>
+							<div>
+								<h4>Applied Technology</h4>
+								<p>Agentic AI &amp; automation, product engineering background</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Experience -->
+	<section class="section section-alt" id="experience">
+		<div class="section-inner">
+			<p class="section-kicker reveal">Career so far</p>
+			<h2 class="section-title reveal">Experience</h2>
+
+			<div class="timeline">
+
+				<div class="timeline-item reveal">
+					<div class="timeline-dot"></div>
+					<div class="timeline-card">
+						<div class="timeline-head">
+							<h3>MBA Candidate</h3>
+							<span class="timeline-date">2026</span>
+						</div>
+						<p class="timeline-org">INSEAD · Fontainebleau, France</p>
+						<p class="timeline-desc">
+							Awarded the INSEAD Diversity Fund Scholarship. Active in the PE &amp; VC,
+							TMT and Football clubs. Coursework spans Corporate Strategy, Financial
+							Analysis, Corporate Finance Policy, Investment &amp; Asset Management and
+							Negotiations.
+						</p>
+					</div>
+				</div>
+
+				<div class="timeline-item reveal">
+					<div class="timeline-dot"></div>
+					<div class="timeline-card">
+						<div class="timeline-head">
+							<h3>Financial Services GTM Strategist &amp; AI Evangelist</h3>
+							<span class="timeline-date">2026</span>
+						</div>
+						<p class="timeline-org">Infosys Ltd · Düsseldorf, Germany</p>
+						<p class="timeline-desc">
+							Led go-to-market strategy across Luxembourg's €8.3T wealth management sector,
+							prioritising 13 target accounts. Directed the build of AI-powered sales
+							intelligence tools that replaced static pitch decks for client presentations.
+						</p>
+						<div class="timeline-tags">
+							<span>Market Strategy</span><span>AI Product</span><span>Client Delivery</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="timeline-item reveal">
+					<div class="timeline-dot"></div>
+					<div class="timeline-card">
+						<div class="timeline-head">
+							<h3>Product Owner, XR Integrator</h3>
+							<span class="timeline-date">2025</span>
+						</div>
+						<p class="timeline-org">Reiser Simulation and Training GmbH · Berg, Germany</p>
+						<p class="timeline-desc">
+							Spotted a gap in defence maintenance training and led a VR trainer from
+							concept to client demo, delivering an estimated 75% cost saving over a
+							physical trainer. Led a team of 4 inside a 25-person, 10+ nationality agile org.
+						</p>
+						<div class="timeline-tags">
+							<span>0→1 Product</span><span>Team Leadership</span><span>Vendor Strategy</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="timeline-item reveal">
+					<div class="timeline-dot"></div>
+					<div class="timeline-card">
+						<div class="timeline-head">
+							<h3>Product Owner, Software Developer</h3>
+							<span class="timeline-date">2022 – 2024</span>
+						</div>
+						<p class="timeline-org">LUCE Stiftung · Nuremberg, Germany</p>
+						<p class="timeline-desc">
+							Co-led product vision for LUMIS Campus, an award-winning e-learning platform
+							serving 50,000+ students. Delivered an AR field-support tool showcased to
+							100+ prospective clients, and managed a team of 3 while cutting onboarding
+							time in half.
+						</p>
+						<div class="timeline-tags">
+							<span>Product Strategy</span><span>User Research</span><span>Team Management</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="timeline-item reveal">
+					<div class="timeline-dot"></div>
+					<div class="timeline-card">
+						<div class="timeline-head">
+							<h3>Intern &amp; Master's Thesis</h3>
+							<span class="timeline-date">2021</span>
+						</div>
+						<p class="timeline-org">Siemens AG · Nuremberg, Germany</p>
+						<p class="timeline-desc">
+							Built an early proof of concept for AR in industrial automation, connecting
+							HoloLens 2 to live machine data. It was later adopted as a framework by
+							the R&amp;D team.
+						</p>
+					</div>
+				</div>
+
+				<div class="timeline-item reveal">
+					<div class="timeline-dot"></div>
+					<div class="timeline-card">
+						<div class="timeline-head">
+							<h3>Automation Engineer</h3>
+							<span class="timeline-date">2017 – 2018</span>
+						</div>
+						<p class="timeline-org">Richfield Automation Ltd · Nashik, India</p>
+						<p class="timeline-desc">
+							Designed and commissioned custom conveyor systems and special-purpose
+							machines for industrial clients, from customer brief through to delivery.
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- Projects -->
+	<section class="section" id="projects">
+		<div class="section-inner">
+			<p class="section-kicker reveal">Selected work</p>
+			<h2 class="section-title reveal">Projects</h2>
+			<p class="section-lede reveal">
+				I'm currently putting together a couple of finance and strategy projects to go here.
+				In the meantime, here's the XR work from before INSEAD.
+			</p>
+
+			<h3 class="subsection-title reveal">Finance &amp; Strategy <span class="badge-soon">In progress</span></h3>
+			<div class="project-grid">
+
+				<article class="project-card project-card-soon reveal">
+					<div class="project-card-glow"></div>
+					<div class="project-icon"><i class="fas fa-chart-pie"></i></div>
+					<h4>Equity Research &amp; Portfolio Dashboard</h4>
+					<p>
+						A bottom-up fundamental analysis tool for emerging tech companies, built around
+						the same screening and valuation process behind my personal portfolio (up 87%
+						since 2023).
+					</p>
+					<div class="project-tags"><span>Python</span><span>Financial Modelling</span><span>Data Viz</span></div>
+					<span class="project-status"><i class="fas fa-hourglass-half"></i> Coming soon, link to follow</span>
+				</article>
+
+				<article class="project-card project-card-soon reveal">
+					<div class="project-card-glow"></div>
+					<div class="project-icon"><i class="fas fa-project-diagram"></i></div>
+					<h4>Market-Entry Strategy Case Study</h4>
+					<p>
+						A consulting-style case study working through a market-entry decision end to
+						end: market sizing, competitive analysis and a final recommendation, laid out
+						as a strategy deck.
+					</p>
+					<div class="project-tags"><span>Strategy</span><span>Market Sizing</span><span>Storytelling</span></div>
+					<span class="project-status"><i class="fas fa-hourglass-half"></i> Coming soon, link to follow</span>
+				</article>
+
+			</div>
+
+			<h3 class="subsection-title reveal">Engineering Foundations</h3>
+			<div class="project-grid">
+
+				<article class="project-card reveal">
+					<div class="project-card-glow"></div>
+					<div class="project-image">
+						<img src="images/project1_img1.jpg" alt="Mobile VR headset used for the apartment tour project" loading="lazy" />
+					</div>
+					<h4>Virtual Apartment Tour</h4>
+					<p>
+						A low-cost mobile VR experience letting prospective tenants tour an apartment
+						remotely. Built in Unity with Google's Cardboard XR plugin and teleport-based
+						navigation.
+					</p>
+					<div class="project-tags"><span>Unity</span><span>Mobile VR</span><span>C#</span></div>
+					<a href="https://github.com/BhargavJoshiPortfolio/VirtualApartmentTour" target="_blank" rel="noopener" class="project-link">
+						<i class="fab fa-github"></i><span>View code</span>
+					</a>
+				</article>
+
+				<article class="project-card reveal">
+					<div class="project-card-glow"></div>
+					<div class="project-image">
+						<img src="images/project2_img1.jpg" alt="AIPA personal AI assistant running in a browser" loading="lazy" />
+					</div>
+					<h4>AIPA, a Personal AI Assistant</h4>
+					<p>
+						A talking avatar that answers questions about me in real time. Built with a
+						Ready Player Me avatar, the Convai plugin and a custom knowledge base in Unity.
+					</p>
+					<div class="project-tags"><span>Unity</span><span>Convai</span><span>Conversational AI</span></div>
+					<a href="https://bhargavjoshiportfolio.github.io/AIPAmob/" target="_blank" rel="noopener" class="project-link">
+						<i class="fas fa-external-link-alt"></i><span>Try it live</span>
+					</a>
+				</article>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- Skills -->
+	<section class="section section-alt" id="skills">
+		<div class="section-inner">
+			<p class="section-kicker reveal">Toolkit</p>
+			<h2 class="section-title reveal">Skills &amp; Certifications</h2>
+
+			<div class="skills-grid">
+				<div class="skill-block reveal">
+					<h3><i class="fas fa-briefcase"></i> Business &amp; Strategy</h3>
+					<div class="pill-row">
+						<span class="pill">Corporate Strategy</span>
+						<span class="pill">Financial Analysis</span>
+						<span class="pill">GTM Strategy</span>
+						<span class="pill">Corporate Finance</span>
+						<span class="pill">Negotiations</span>
+						<span class="pill">Project Management</span>
+					</div>
+				</div>
+
+				<div class="skill-block reveal">
+					<h3><i class="fas fa-microchip"></i> Technology</h3>
+					<div class="pill-row">
+						<span class="pill">Agentic AI · Claude Code</span>
+						<span class="pill">Prompt Engineering</span>
+						<span class="pill">Python</span>
+						<span class="pill">React / TypeScript</span>
+						<span class="pill">Unity 3D · C#</span>
+						<span class="pill">Git</span>
+					</div>
+				</div>
+
+				<div class="skill-block reveal">
+					<h3><i class="fas fa-language"></i> Languages</h3>
+					<div class="pill-row">
+						<span class="pill">English (Native)</span>
+						<span class="pill">German (Business)</span>
+						<span class="pill">Marathi (Native)</span>
+						<span class="pill">Hindi (Fluent)</span>
+						<span class="pill">Kannada (Fluent)</span>
+					</div>
+				</div>
+
+				<div class="skill-block reveal">
+					<h3><i class="fas fa-certificate"></i> Certifications</h3>
+					<div class="pill-row">
+						<span class="pill">Finance Foundations</span>
+						<span class="pill">Financial Modelling &amp; Forecasting</span>
+						<span class="pill">PMI Project Management</span>
+						<span class="pill">Unity Game Engine &amp; C#</span>
+						<span class="pill">ML for Beginners</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Education -->
+	<section class="section" id="education">
+		<div class="section-inner">
+			<p class="section-kicker reveal">Academics</p>
+			<h2 class="section-title reveal">Education</h2>
+
+			<div class="edu-grid">
+				<div class="edu-card reveal">
+					<div class="edu-mark"><i class="fas fa-graduation-cap"></i></div>
+					<h3>MBA</h3>
+					<p class="edu-org">INSEAD, Fontainebleau, France</p>
+					<p class="edu-date">Class of December 2026</p>
+					<p class="edu-detail">INSEAD Diversity Fund Scholarship recipient.</p>
+				</div>
+
+				<div class="edu-card reveal">
+					<div class="edu-mark"><i class="fas fa-graduation-cap"></i></div>
+					<h3>M.Sc. Robotic Systems Engineering</h3>
+					<p class="edu-org">RWTH Aachen University, Germany</p>
+					<p class="edu-date">2018 – 2021</p>
+					<p class="edu-detail">Thesis on the commercial viability of AR in industrial workflows, at Siemens AG.</p>
+				</div>
+
+				<div class="edu-card reveal">
+					<div class="edu-mark"><i class="fas fa-graduation-cap"></i></div>
+					<h3>B.E. Robotics &amp; Automation</h3>
+					<p class="edu-org">B.V.B College of Engineering &amp; Technology, KLE University, India</p>
+					<p class="edu-date">2013 – 2017</p>
+					<p class="edu-detail">Graduated top 5 in class, 8.89/10 CGPA.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact -->
+	<section class="section section-contact" id="contact">
+		<div class="section-inner">
+			<div class="contact-card reveal">
+				<div class="contact-copy">
+					<p class="section-kicker">Let's talk</p>
+					<h2 class="section-title">Recruiting for finance, consulting or strategy?</h2>
+					<p class="section-lede">
+						Reach out directly, or connect with me on LinkedIn.
+					</p>
+
+					<div class="contact-links">
+						<a href="mailto:bhargav.joshi@insead.edu" class="contact-link">
+							<i class="fas fa-envelope"></i><span>bhargav.joshi@insead.edu</span>
+						</a>
+						<a href="tel:+491797272847" class="contact-link">
+							<i class="fas fa-phone"></i><span>+49 179 727 2847</span>
+						</a>
+						<a href="https://www.linkedin.com/in/bhargav-joshi-inseadmba" target="_blank" rel="noopener" class="contact-link">
+							<i class="fab fa-linkedin"></i><span>LinkedIn</span>
+						</a>
+						<span class="contact-link contact-link-static">
+							<i class="fas fa-map-marker-alt"></i><span>Fontainebleau, France</span>
+						</span>
+					</div>
+				</div>
+
+				<a href="documents/Bhargav_Joshi_CV_29.08.26.pdf" download class="btn btn-primary btn-large">
+					<i class="fas fa-download"></i><span>Download CV</span>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<footer class="site-footer">
+		<p>&copy; <span id="year"></span> Bhargav Joshi.</p>
+	</footer>
+
+	<button class="back-to-top" id="backToTop" aria-label="Back to top">
+		<i class="fas fa-arrow-up"></i>
+	</button>
+
+	<script src="assets/js/app.js"></script>
+</body>
+</html>
