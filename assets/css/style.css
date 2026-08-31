@@ -138,10 +138,10 @@ p { margin: 0; }
 .brand {
 	font-family: var(--font-head);
 	font-weight: 700;
-	font-size: 1.3rem;
-	letter-spacing: 0.02em;
+	font-size: 1.05rem;
+	letter-spacing: 0.01em;
+	white-space: nowrap;
 }
-.brand-dot { color: var(--accent); }
 
 .main-nav {
 	display: flex;
@@ -476,10 +476,10 @@ p { margin: 0; }
 }
 .about-photo.photo-fallback .photo-frame img { display: none; }
 .about-photo.photo-fallback .photo-frame::before {
-	content: 'BJ';
-	font-family: var(--font-head);
-	font-size: 4rem;
-	font-weight: 700;
+	content: '\f007';
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	font-size: 3.5rem;
 	color: var(--accent);
 	opacity: 0.5;
 }
