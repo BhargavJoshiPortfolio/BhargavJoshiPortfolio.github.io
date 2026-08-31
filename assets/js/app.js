@@ -125,6 +125,7 @@
 	   ------------------------------------------------------------ */
 	var roles = [
 		'INSEAD MBA Candidate, Class of ‘26',
+		'Finance, Strategy & AI for Fintech',
 		'Building toward Finance & Strategy',
 		'Ex-Product Owner, XR & AI',
 		'Engineer turned Strategist'
