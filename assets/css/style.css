@@ -686,6 +686,12 @@ p { margin: 0; }
 	color: var(--text-faint);
 }
 
+.project-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
 .project-link {
 	display: inline-flex;
 	align-items: center;
