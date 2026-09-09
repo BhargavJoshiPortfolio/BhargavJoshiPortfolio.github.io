@@ -45,6 +45,43 @@
 	});
 
 	/* ------------------------------------------------------------
+	   CV language dropdown (Resume / Download CV)
+	   ------------------------------------------------------------ */
+	var cvDropdowns = Array.prototype.slice.call(document.querySelectorAll('.cv-dropdown'));
+
+	function closeCvDropdowns() {
+		cvDropdowns.forEach(function (d) {
+			d.classList.remove('open');
+			d.querySelector('.cv-dropdown-toggle').setAttribute('aria-expanded', 'false');
+		});
+	}
+
+	cvDropdowns.forEach(function (dropdown) {
+		var toggle = dropdown.querySelector('.cv-dropdown-toggle');
+		var menu = dropdown.querySelector('.cv-dropdown-menu');
+
+		toggle.addEventListener('click', function (e) {
+			e.stopPropagation();
+			var wasOpen = dropdown.classList.contains('open');
+			closeCvDropdowns();
+			if (wasOpen) return;
+
+			var rect = toggle.getBoundingClientRect();
+			menu.style.top = (rect.bottom + 8) + 'px';
+			menu.style.left = (rect.right - menu.offsetWidth) + 'px';
+
+			dropdown.classList.add('open');
+			toggle.setAttribute('aria-expanded', 'true');
+		});
+	});
+
+	document.addEventListener('click', closeCvDropdowns);
+	window.addEventListener('scroll', closeCvDropdowns, { passive: true });
+	document.addEventListener('keydown', function (e) {
+		if (e.key === 'Escape') closeCvDropdowns();
+	});
+
+	/* ------------------------------------------------------------
 	   Scrollspy: highlight active nav link
 	   ------------------------------------------------------------ */
 	var sections = Array.prototype.slice.call(document.querySelectorAll('section[id]'));
@@ -154,6 +191,15 @@
 		setTimeout(typeRole, deleting ? 28 : 45);
 	}
 	typeRole();
+
+	// Hook for i18n.js to swap the rotating roles when the language changes.
+	window.__setHeroRoles = function (newRoles) {
+		roles = newRoles;
+		roleIndex = 0;
+		charIndex = 0;
+		deleting = false;
+		roleEl.textContent = '';
+	};
 
 	/* ------------------------------------------------------------
 	   Project card tilt + glow cursor
