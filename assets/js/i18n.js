@@ -93,8 +93,8 @@
 			'proj.equity.title': 'Equity Research Portfolio',
 			'proj.equity.desc': 'Independent research on 7 public companies across AI, defence and semiconductors: bull and bear cases, valuation, and 3-year price charts for each. Same bottom-up approach behind my personal portfolio (up 87% since 2023).',
 
-			'proj.market.title': 'Market-Entry Strategy Case Study',
-			'proj.market.desc': 'A consulting-style case study working through a market-entry decision end to end: market sizing, competitive analysis and a final recommendation, laid out as a strategy deck.',
+			'proj.gtm.title': 'Market Intelligence & GTM for AI in Wealth Management',
+			'proj.gtm.desc': 'A case study from my Infosys internship: market intelligence, go-to-market strategy and an agentic AI scoring dashboard for a wealth management product. Company names and client data are fictionalised for confidentiality.',
 
 			'proj.pevc.title': 'PE & VC: Pre-Seed Research',
 			'proj.pevc.desc': 'Diligence-style research into pre-seed startups, evaluating founding teams, market thesis and early traction the way an investor would. Ties back to my work with INSEAD’s PE & VC club.',
@@ -228,8 +228,8 @@
 			'proj.equity.title': 'Equity-Research-Portfolio',
 			'proj.equity.desc': 'Unabhängige Recherche zu 7 börsennotierten Unternehmen aus KI, Verteidigung und Halbleitern: Bull- und Bear-Case, Bewertung und 3-Jahres-Kurscharts für jedes Unternehmen. Gleicher Bottom-up-Ansatz wie bei meinem persönlichen Portfolio (seit 2023 um 87 % gestiegen).',
 
-			'proj.market.title': 'Markteintritts-Strategie: Fallstudie',
-			'proj.market.desc': 'Eine Fallstudie im Consulting-Stil, die eine Markteintrittsentscheidung von Anfang bis Ende durcharbeitet: Marktbewertung, Wettbewerbsanalyse und eine abschließende Empfehlung, aufbereitet als Strategie-Deck.',
+			'proj.gtm.title': 'Marktanalyse & GTM für KI im Wealth Management',
+			'proj.gtm.desc': 'Eine Fallstudie aus meinem Praktikum bei Infosys: Marktanalyse, Go-to-Market-Strategie und ein agentisches KI-Scoring-Dashboard für ein Wealth-Management-Produkt. Firmennamen und Kundendaten sind aus Vertraulichkeitsgründen fiktiv.',
 
 			'proj.pevc.title': 'PE & VC: Pre-Seed-Recherche',
 			'proj.pevc.desc': 'Due-Diligence-artige Recherche zu Pre-Seed-Startups, bei der Gründerteams, Marktthese und frühe Traktion aus Investorensicht bewertet werden. Knüpft an meine Arbeit im PE & VC Club des INSEAD an.',
