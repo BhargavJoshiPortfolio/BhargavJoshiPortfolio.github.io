@@ -84,9 +84,7 @@
 			'proj.title': 'Projects',
 			'proj.lede': 'A mix of finance and strategy work from INSEAD, plus the XR projects I built before it.',
 			'proj.sub1': 'Finance & Strategy',
-			'proj.badgeSoon': 'In progress',
 			'proj.sub2': 'Engineering Foundations',
-			'proj.comingSoon': 'Coming soon, link to follow',
 			'proj.viewLive': 'View live',
 			'proj.viewCode': 'View code',
 
@@ -97,7 +95,7 @@
 			'proj.gtm.desc': 'A case study from my Infosys internship: market intelligence, go-to-market strategy and an agentic AI scoring dashboard for a wealth management product. Company names and client data are fictionalised for confidentiality.',
 
 			'proj.pevc.title': 'PE & VC: Pre-Seed Research',
-			'proj.pevc.desc': 'Diligence-style research into pre-seed startups, evaluating founding teams, market thesis and early traction the way an investor would. Ties back to my work with INSEAD’s PE & VC club.',
+			'proj.pevc.desc': 'Desk research on early-stage European startups across health, robotics, food and agriculture, energy and space, and software. A shortlist of 11 companies scored on six weighted criteria, with a scoreboard where you can adjust the weights and watch the ranking shift. Deep dives are being added.',
 
 			'proj.vat.title': 'Virtual Apartment Tour',
 			'proj.vat.desc': 'A low-cost mobile VR experience letting prospective tenants tour an apartment remotely. Built in Unity with Google’s Cardboard XR plugin and teleport-based navigation.',
@@ -219,9 +217,7 @@
 			'proj.title': 'Projekte',
 			'proj.lede': 'Eine Mischung aus Finance- und Strategieprojekten vom INSEAD sowie den XR-Projekten, die ich davor realisiert habe.',
 			'proj.sub1': 'Finance & Strategie',
-			'proj.badgeSoon': 'In Arbeit',
 			'proj.sub2': 'Technisches Fundament',
-			'proj.comingSoon': 'Demnächst verfügbar, Link folgt',
 			'proj.viewLive': 'Live ansehen',
 			'proj.viewCode': 'Code ansehen',
 
@@ -232,7 +228,7 @@
 			'proj.gtm.desc': 'Eine Fallstudie aus meinem Praktikum bei Infosys: Marktanalyse, Go-to-Market-Strategie und ein agentisches KI-Scoring-Dashboard für ein Wealth-Management-Produkt. Firmennamen und Kundendaten sind aus Vertraulichkeitsgründen fiktiv.',
 
 			'proj.pevc.title': 'PE & VC: Pre-Seed-Recherche',
-			'proj.pevc.desc': 'Due-Diligence-artige Recherche zu Pre-Seed-Startups, bei der Gründerteams, Marktthese und frühe Traktion aus Investorensicht bewertet werden. Knüpft an meine Arbeit im PE & VC Club des INSEAD an.',
+			'proj.pevc.desc': 'Desk Research zu europäischen Early-Stage-Startups aus den Bereichen Gesundheit, Robotik, Ernährung und Landwirtschaft, Energie und Raumfahrt sowie Software. Eine Shortlist von 11 Unternehmen, bewertet nach sechs gewichteten Kriterien, mit einem Scoreboard, in dem sich die Gewichtung anpassen lässt und die Rangfolge sich verschiebt. Deep Dives werden laufend ergänzt.',
 
 			'proj.vat.title': 'Virtuelle Wohnungsbesichtigung',
 			'proj.vat.desc': 'Eine kostengünstige mobile VR-Erfahrung, mit der Mietinteressenten eine Wohnung aus der Ferne besichtigen können. Entwickelt in Unity mit Googles Cardboard-XR-Plugin und teleportbasierter Navigation.',
